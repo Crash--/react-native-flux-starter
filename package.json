@@ -1,0 +1,18 @@
+{
+  "name": "ReactNativeFluxStarterKit",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "events": "^1.0.2",
+    "flux": "^2.1.1",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3",
+    "react-native": "^0.9.0",
+    "react-native-material-kit": "^0.1.8"
+  },
+  "devDependencies": {}
+}
