@@ -14,7 +14,7 @@ var _moviesList = [
 var isLoaded = false;
 
 function _movieButtonPressed(payload){
-  
+//Is it the responsability of the Store to push a new View?  
 }
 
 

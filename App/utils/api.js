@@ -17,6 +17,63 @@ var MOCKED_MOVIES_DATA = [
       thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
     }
   },
+  {
+    title: '2nd',
+    year: '2015',
+    posters: {
+      thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
+    }
+  },
+  {
+    title: '2nd',
+    year: '2015',
+    posters: {
+      thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
+    }
+  },
+  {
+    title: '2nd',
+    year: '2015',
+    posters: {
+      thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
+    }
+  },
+  {
+    title: '2nd',
+    year: '2015',
+    posters: {
+      thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
+    }
+  },
+  {
+    title: '2nd',
+    year: '2015',
+    posters: {
+      thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
+    }
+  },
+  {
+    title: '2nd',
+    year: '2015',
+    posters: {
+      thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
+    }
+  },
+  {
+    title: '2nd',
+    year: '2015',
+    posters: {
+      thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
+    }
+  },
+  {
+    title: '2nd',
+    year: '2015',
+    posters: {
+      thumbnail: 'http://i.imgur.com/3qflKhA.jpg'
+    }
+  },
+  
 ];
 
 

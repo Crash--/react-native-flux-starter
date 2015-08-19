@@ -38,8 +38,8 @@ var MoviesButton = React.createClass({
     the responsability of the store? Weird if this is the case, right?
     But if it's not, it has to be done here. So, the Action/Store is no more needed ?
     */
-    
-    MoviesActions.pressMoviesButton();
+
+    //MoviesActions.pressMoviesButton();
 
     this.props.navigator.push({
       title: this.props.movie.title,

@@ -47,7 +47,9 @@ var App = React.createClass({
         <ListView
           dataSource={this.state.dataSource}
           renderRow={this.renderMovie}
-          style={styles.listView} />
+          style={styles.listView}
+          contentInset={{bottom:120}}
+          />
       </View>
 
     );
@@ -75,7 +77,7 @@ var App = React.createClass({
           <Text style={styles.title}>{movie.title}</Text>
           <Text style={styles.year}>{movie.year}</Text>
         </View>
-        
+
         <FluxWidget movie ={{...movie}} navigator={this.props.navigator} />
       </View>
     );
@@ -84,7 +86,8 @@ var App = React.createClass({
 
 var styles = StyleSheet.create({
   listView: {
-    paddingTop: 20,
+
+    paddingTop: 120,
     backgroundColor: '#F5FCFF',
   },
   container: {
