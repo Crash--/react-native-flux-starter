@@ -8,13 +8,13 @@ var CHANGE_EVENT = "change";
 
 
 var _moviesList = [
-   
+
 ];
 
 var isLoaded = false;
 
 function _movieButtonPressed(payload){
-  console.log("faire qq chose maintenant")
+  
 }
 
 
@@ -24,10 +24,10 @@ var MoviesStore = assign({}, EventEmitter.prototype, {
       if(isLoaded === true){
         return _moviesList;
       }else{
-      _moviesList = Api.getMoviesData();  
+      _moviesList = Api.getMoviesData();
       isLoaded = true;
       MoviesStore.emitChange();
-      return _moviesList; 
+      return _moviesList;
     }
   },
   isLoaded : function(){
@@ -41,7 +41,7 @@ var MoviesStore = assign({}, EventEmitter.prototype, {
 
   addChangeListener:function(callback){
     console.log("change listener" + callback);
-  
+
     this.on(CHANGE_EVENT, callback)
   },
 
